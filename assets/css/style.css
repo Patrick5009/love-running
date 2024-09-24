@@ -21,7 +21,7 @@ body {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -76,7 +76,7 @@ nav {
     display: none;
 }
 
-#nav-toggle-label {
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -98,12 +98,12 @@ main {
 }
 
 #social-networks i {
-font-size: 160%;
-padding: 5%;
-color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
-/* media querys: tablets and larger (768 and up) */
+/* media querys: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* header */
     nav {
@@ -140,7 +140,7 @@ color: #3a3a3a;
 }
 
 
-/* media querys: laptops and desktops (992 and up) */
+/* media querys: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a ;
