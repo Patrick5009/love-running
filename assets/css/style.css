@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -53,13 +55,14 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -116,8 +119,9 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color:#ffffff;
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 #reasons {
@@ -131,7 +135,8 @@ main {
     font-size: 280%;
 }
 
-#benefits-physical > div, #benefits-mental > div {
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -195,7 +200,7 @@ main {
 }
 
 #photos {
-line-height: 0;
+    line-height: 0;
 }
 
 /* Form */
@@ -220,12 +225,12 @@ line-height: 0;
 
 .text-input {
     background: transparent;
-    color: #fafafa; 
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
 }
 
@@ -271,6 +276,7 @@ line-height: 0;
 
 /* media querys: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* header */
     nav {
         display: block;
@@ -284,7 +290,7 @@ line-height: 0;
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -326,38 +332,39 @@ line-height: 0;
         left: 10%;
         top: 150px;
     }
+
     .text-input:hover {
         border-color: #f16c6b;
     }
-    
+
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
     }
 }
 
-    /* reasons section */
-    #benefits-physical,
-    #benefits-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+/* reasons section */
+#benefits-physical,
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-    #benefits-physical > div,
-    #benefits-mental > div {
-        width: 75%;
-    }
+#benefits-physical>div,
+#benefits-mental>div {
+    width: 75%;
+}
 
-    #benefits-mental > div {
-        text-align: end;
-        align-self: flex-end;
-    }
+#benefits-mental>div {
+    text-align: end;
+    align-self: flex-end;
+}
 
 /* media querys: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a ;
+        border-bottom: 1px solid #3a3a3a;
     }
 
     /* Gallery */
@@ -367,13 +374,14 @@ line-height: 0;
 }
 
 @media screen and (min-width: 1200px) {
+
     /* reasons section */
     #benefits {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -385,12 +393,11 @@ line-height: 0;
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
-
