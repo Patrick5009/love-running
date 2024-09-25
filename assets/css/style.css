@@ -210,6 +210,14 @@ line-height: 0;
     color: #3a3a3a;
 }
 
+/* media querys: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* media querys: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* header */
@@ -250,6 +258,11 @@ line-height: 0;
         width: 300px;
         right: 50px;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
     /* reasons section */
@@ -274,6 +287,11 @@ line-height: 0;
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a ;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
